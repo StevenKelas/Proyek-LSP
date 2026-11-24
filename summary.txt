@@ -1,0 +1,11 @@
+komponen yang menggunakan flex & grid yaitu
+1) Navbar yang ada di atas
+2) Product Productnya
+3) Label spesifikasi
+4) footer 
+
+Keterangannya : 
+1) Navbar di atas : menggunakan flex karna ada 3 kelompok yaitu nama brand, menu - menu di tengah, dan keranjang. Agar bisa menempatkan dan mendorong nama brand di kiri lalu menu di kanan dan keranjang di kanan
+2) Product : menggunakan grid karna lebih mudah untuk membagi - bagi tempat secara 3 kolom rapih dan memudahkan untuk menyesusaikan ukuran seperti product iphone yang containernya 2x lebih besar daripada product yang lain
+3) Label spesifikasi : menggunakan flex agar bikin si tag labelnya berjejer ke samping dan otomatis turun ke baris baru kalau si space nya tidak cukup
+4) footer : menggunakan flex karna memisahkan kelompok - kelompok seperti hak cipta, nama brand, lalu tag dibawahnya ada di sebelah kiri sedangkan medsos/media sosial ada di sebelah kanan
