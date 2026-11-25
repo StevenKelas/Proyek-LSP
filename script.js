@@ -149,8 +149,7 @@ function renderProduk(data) {
   if (!bigContainer) return;
   bigContainer.innerHTML = "";
 
-  const fragment = document.createDocumentFragment(); // Menggunakan DocumentFragment sesuai README[cite: 2, 5]
-
+  const fragment = document.createDocumentFragment(); 
   if (data.length === 0) {
     if (emptyState) emptyState.hidden = false;
     if (infoCounter)
@@ -173,7 +172,7 @@ function renderProduk(data) {
 
     const topLeft = document.createElement("span");
     topLeft.className = `topleft-font ${produk.id === "samsung" || produk.id === "tws" ? "blue-font" : ""}`;
-    topLeft.textContent = produk.badge; // Menggunakan textContent sesuai README[cite: 2, 5]
+    topLeft.textContent = produk.badge; 
 
     const topRight = document.createElement("p");
     topRight.className = "topright-font";
